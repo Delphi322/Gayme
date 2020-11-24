@@ -1153,6 +1153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: Main
+  exitPoint: Test House Out
 --- !u!61 &467528448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1237,6 +1238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 1}
+  pointName: Test House In
 --- !u!1 &1237626879
 GameObject:
   m_ObjectHideFlags: 0

@@ -68,15 +68,7 @@ public class SlimeController : MonoBehaviour
             }
         }
 
-        if(reloading)
-        {
-            waitToReload -= Time.deltaTime;
-            if(waitToReload < 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                thePlayer.SetActive(true);
-            }
-        }
+       
     }
 
     void OnCollisionEnter2D(Collision2D other)

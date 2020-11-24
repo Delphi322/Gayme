@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public float attackTime;
     private float attackTimeCounter;
 
+    public string startPoint;
+
     void Start()
     {
         anim = GetComponent<Animator>();

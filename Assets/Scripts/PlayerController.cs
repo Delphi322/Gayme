@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
                 myRigidbody.velocity = Vector2.zero;
                 anim.SetBool("Attack", true);
             }
-
+        }
             if(Mathf.Abs (Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs (Input.GetAxisRaw("Vertical")) > 0.5f)
             {
                 currentMoveSpeed = moveSpeed * diagonalMoveModifier;
@@ -106,6 +106,6 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("PlayerMoving", playerMoving);
             anim.SetFloat("LastMoveX", lastMove.x);
             anim.SetFloat("LastMoveY", lastMove.y);
-        }
+        
     }
 }

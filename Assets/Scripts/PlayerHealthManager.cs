@@ -14,6 +14,8 @@ public class PlayerHealthManager : MonoBehaviour
 
     private SpriteRenderer playerSprite;
 
+    private SFXManager sfxMan;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,8 @@ public class PlayerHealthManager : MonoBehaviour
     {
         if (playerCurrentHealth <= 0)
         {
+            sfxMan.playerDead.Play();
+
             gameObject.SetActive(false);
         }
 
@@ -58,6 +62,8 @@ public class PlayerHealthManager : MonoBehaviour
 
         flashActive = true;
         flashCounter = flashLength;
+
+        sfxMan.playerHurt.Play();
     }
 
     public void SetMaxHealth()

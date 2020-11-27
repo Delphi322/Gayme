@@ -8990,7 +8990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 0}
-  pointName: Test House Out
+  pointName: House Exit
 --- !u!4 &279530449
 Transform:
   m_ObjectHideFlags: 0
@@ -9661,6 +9661,102 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &998496265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 998496266}
+  - component: {fileID: 998496267}
+  - component: {fileID: 998496268}
+  m_Layer: 0
+  m_Name: HitPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &998496266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998496265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1940858788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &998496267
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998496265}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.7719083, y: 0.7027346}
+      - {x: -1.0213556, y: 0.5631455}
+      - {x: -1.0222828, y: 0.5109035}
+      - {x: -0.9436681, y: 0.5359367}
+      - {x: -0.76796985, y: 0.60956526}
+      - {x: -0.32870293, y: 0.57770073}
+      - {x: -0.11836225, y: 0.39457598}
+      - {x: -0.1500616, y: 0.08735871}
+      - {x: -0.3941486, y: -0.120542645}
+      - {x: -0.45029157, y: -0.2223773}
+      - {x: -0.44497728, y: -0.3658566}
+      - {x: -0.39438248, y: -0.48252082}
+      - {x: -0.09113574, y: -0.43828964}
+      - {x: 0.109879375, y: -0.32585907}
+      - {x: 0.22417283, y: -0.2495395}
+      - {x: 0.29759264, y: -0.09218001}
+      - {x: 0.36856937, y: 0.09831649}
+      - {x: 0.36942458, y: 0.26443547}
+      - {x: 0.28474545, y: 0.37633538}
+      - {x: 0.16734147, y: 0.50408363}
+      - {x: 0.100142, y: 0.57568634}
+      - {x: -0.036157608, y: 0.642589}
+      - {x: -0.21482515, y: 0.7081476}
+--- !u!114 &998496268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998496265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddc00d53ad9b9a54d8e070163d7e4200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 5
+  damageBurst: {fileID: 0}
+  hitPoint: {fileID: 998496266}
+  damageNumber: {fileID: 0}
 --- !u!1 &1099566994
 GameObject:
   m_ObjectHideFlags: 0
@@ -12056,11 +12152,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1940858788}
   - component: {fileID: 1940858787}
-  - component: {fileID: 1940858786}
   - component: {fileID: 1940858785}
   - component: {fileID: 1940858784}
   - component: {fileID: 1940858783}
   - component: {fileID: 1940858782}
+  - component: {fileID: 1940858786}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12096,7 +12192,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08, y: -0.29}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12107,7 +12203,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6, y: 1.09}
   m_EdgeRadius: 0
 --- !u!50 &1940858784
 Rigidbody2D:
@@ -12163,7 +12259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lastMove: {x: 0, y: 0}
-  attackTime: 0.7
+  attackTime: 1
   startPoint: 
 --- !u!212 &1940858787
 SpriteRenderer:
@@ -12224,9 +12320,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940858781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.698, y: 1.096, z: 0}
+  m_LocalPosition: {x: 7.51, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 998496266}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12274,7 +12371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 0}
-  pointName: 
+  pointName: Spawn
 --- !u!1 &2032940229
 GameObject:
   m_ObjectHideFlags: 0

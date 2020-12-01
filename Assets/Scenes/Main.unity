@@ -8990,7 +8990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startDirection: {x: 0, y: 0}
-  pointName: House Exit
+  pointName: Test House Exit
 --- !u!4 &279530449
 Transform:
   m_ObjectHideFlags: 0
@@ -9754,9 +9754,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToGive: 5
-  damageBurst: {fileID: 0}
+  damageBurst: {fileID: 1337708220117406577, guid: bdeaa949e1aa426429dfddc9bfeeb202,
+    type: 3}
   hitPoint: {fileID: 998496266}
-  damageNumber: {fileID: 0}
+  damageNumber: {fileID: 5855143102471341253, guid: 30258e25f6388f84f8ed527f76e36d40,
+    type: 3}
 --- !u!1 &1099566994
 GameObject:
   m_ObjectHideFlags: 0
@@ -12259,7 +12261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   lastMove: {x: 0, y: 0}
-  attackTime: 1
+  ClampMoveX: 0
+  attackTime: 0.5
   startPoint: 
 --- !u!212 &1940858787
 SpriteRenderer:

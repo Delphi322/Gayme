@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     private bool playerMoving;
     public Vector2 lastMove;
+    public float ClampMoveX;
     private Vector2 moveInput;
 
     private static bool playerExists;
@@ -78,7 +79,10 @@ public class PlayerController : MonoBehaviour
               }*/
 
             moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-
+            if (Input.GetAxisRaw("Horizontal") != 0)
+            {
+                anim.SetFloat("ClampMoveX", Input.GetAxisRaw("Horizontal"));
+            }
             if(moveInput != Vector2.zero)
             {
                 myRigidbody.velocity = new Vector2(moveInput.x * moveSpeed, moveInput.y * moveSpeed);

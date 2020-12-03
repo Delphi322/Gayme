@@ -21,13 +21,21 @@ public class PlayerController : MonoBehaviour
     private bool attacking;
     public float attackTime;
     private float attackTimeCounter;
+    private bool attacking2;
+    public float attackTime2;
+    private float attackTimeCounter2;
+    private bool hasJBeenPressed;
 
     public string startPoint;
+
+    private SFXManager sfxMan;
+
 
     void Start()
     {
         anim = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
+        sfxMan = FindObjectOfType<SFXManager>();
 
         if(!playerExists)
         {
@@ -51,33 +59,6 @@ public class PlayerController : MonoBehaviour
         playerMoving = false;
         if (!attacking)
         {
-
-            /*if (Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
-              {
-                  //transform.Translate (new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-                  myRigidbody.velocity = new Vector2(Input.GetAxisRaw("Horizontal") * currentMoveSpeed, myRigidbody.velocity.y);
-                  playerMoving = true;
-                  lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
-              }
-
-              if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-              {
-                  //transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-                  myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, Input.GetAxisRaw("Vertical") * currentMoveSpeed);
-                  playerMoving = true;
-                  lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
-              }
-
-              if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
-              {
-                  myRigidbody.velocity = new Vector2(0f, myRigidbody.velocity.y);
-              }
-
-              if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
-              {
-                  myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
-              }*/
-
             moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
@@ -96,20 +77,25 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.J))
             {
-                attackTimeCounter = attackTime;
-                attacking = true;
+                sfxMan.playerAttack.Play();
                 myRigidbody.velocity = Vector2.zero;
-                anim.SetBool("Attack", true);
+
+                if (hasJBeenPressed == true) //(Input.GetKeyDown(KeyCode.J))
+                {
+                    attackTimeCounter2 = attackTime2;
+                    attacking2 = true;
+                    anim.SetBool("Attack2", true);
+                    hasJBeenPressed = false;
+                }
+                else
+                {
+                    attackTimeCounter = attackTime;
+                    attacking = true;
+                    anim.SetBool("Attack", true);
+                    hasJBeenPressed = true;
+                }
             }
         }
-            /*if(Mathf.Abs (Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs (Input.GetAxisRaw("Vertical")) > 0.5f)
-            {
-                currentMoveSpeed = moveSpeed * diagonalMoveModifier;
-            } else
-            {
-                currentMoveSpeed = moveSpeed;
-            }*/
-
             if (attackTimeCounter > 0)
             {
                 attackTimeCounter -= Time.deltaTime;
@@ -120,6 +106,16 @@ public class PlayerController : MonoBehaviour
                 attacking = false;
                 anim.SetBool("Attack", false);
             }
+        if (attackTimeCounter2 > 0)
+        {
+            attackTimeCounter2 -= Time.deltaTime;
+        }
+
+        if (attackTimeCounter2 <= 0)
+        {
+            attacking2 = false;
+            anim.SetBool("Attack2", false);
+        }
 
             anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
             anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));

@@ -22,6 +22,8 @@ public class PlayerHealthManager : MonoBehaviour
         playerCurrentHealth = playerMaxHealth;
 
         playerSprite = GetComponent<SpriteRenderer>();
+
+        sfxMan = FindObjectOfType<SFXManager>();
     }
 
     // Update is called once per frame

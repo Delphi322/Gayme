@@ -8989,8 +8989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15624e2f67823474184a88a32cf361dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDirection: {x: 0, y: 0}
-  pointName: Test House Exit
+  startDirection: {x: 17.31, y: -1.28}
+  pointName: Test House Out
 --- !u!4 &279530449
 Transform:
   m_ObjectHideFlags: 0
@@ -8999,7 +8999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279530447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.29, y: -1.45, z: 0}
+  m_LocalPosition: {x: 17.31, y: -1.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9897,7 +9897,7 @@ GameObject:
   - component: {fileID: 1099566996}
   - component: {fileID: 1099566995}
   m_Layer: 0
-  m_Name: hurt
+  m_Name: playerHurt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12288,6 +12288,7 @@ GameObject:
   - component: {fileID: 1940858783}
   - component: {fileID: 1940858782}
   - component: {fileID: 1940858786}
+  - component: {fileID: 1940858789}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -12392,7 +12393,8 @@ MonoBehaviour:
   lastMove: {x: 0, y: 0}
   ClampMoveX: 0
   attackTime: 0.5
-  startPoint: 
+  attackTime2: 0.5
+  startPoint: Spawn
 --- !u!212 &1940858787
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12452,13 +12454,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940858781}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.51, y: 1.3, z: 0}
+  m_LocalPosition: {x: 4.4, y: 1.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 998496266}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940858789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940858781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962cd1e869f3e404fa78d74f6b6c2772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1940858785}
+  noOfJs: 0
+  maxComboDelay: 0.9
 --- !u!1 &2025938838
 GameObject:
   m_ObjectHideFlags: 0

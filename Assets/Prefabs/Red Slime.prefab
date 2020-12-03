@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8690acf202ca6fc40aca5ed5a5a8eb45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  timeBetweenMove: 2
+  moveSpeed: 2.5
+  timeBetweenMove: 3
   timeToMove: 1
   waitToReload: 2
 --- !u!114 &584024917706038431
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 137b1c7ac54904e44ae4e89249a4f0aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToGive: 5
+  damageToGive: 2
   damageNumber: {fileID: 5855143102471341253, guid: 30258e25f6388f84f8ed527f76e36d40,
     type: 3}
 --- !u!114 &-3323351631849194039
@@ -187,5 +187,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec20c5c6232349499a436c6ee714cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealth: 10
+  MaxHealth: 15
   CurrentHealth: 0

@@ -41,6 +41,7 @@ public class PlayerAttack : MonoBehaviour
         if (noOfJs >= 2)
         {
             anim.SetBool("Attack2", true);
+            anim.SetBool("Attack1", false);
         }
         else
         {

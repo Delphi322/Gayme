@@ -19,12 +19,12 @@ public class PlayerController : MonoBehaviour
     private static bool playerExists;
 
     private bool attacking;
-    public float attackTime;
-    private float attackTimeCounter;
-    private bool attacking2;
-    public float attackTime2;
-    private float attackTimeCounter2;
-    private bool hasJBeenPressed;
+    //public float attackTime;
+    //private float attackTimeCounter;
+    //private bool attacking2;
+    //public float attackTime2;
+    //private float attackTimeCounter2;
+    //private bool hasJBeenPressed;
 
     public string startPoint;
 
@@ -56,26 +56,26 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        playerMoving = false;
-        if (!attacking)
-        {
-            moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
-            if (Input.GetAxisRaw("Horizontal") != 0)
-            {
-                anim.SetFloat("ClampMoveX", Input.GetAxisRaw("Horizontal"));
-            }
-            if(moveInput != Vector2.zero)
-            {
-                myRigidbody.velocity = new Vector2(moveInput.x * moveSpeed, moveInput.y * moveSpeed);
-                playerMoving = true;
-                lastMove = moveInput;
-            }
-            else
-            {
-                myRigidbody.velocity = Vector2.zero;
-            }
+         playerMoving = false;
+          if (!attacking)
+          {
+              moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+              if (Input.GetAxisRaw("Horizontal") != 0)
+              {
+                  anim.SetFloat("ClampMoveX", Input.GetAxisRaw("Horizontal"));
+              }
+              if(moveInput != Vector2.zero)
+              {
+                  myRigidbody.velocity = new Vector2(moveInput.x * moveSpeed, moveInput.y * moveSpeed);
+                  playerMoving = true;
+                  lastMove = moveInput;
+              }
+              else
+              {
+                  myRigidbody.velocity = Vector2.zero;
+              }
 
-            if (Input.GetKeyDown(KeyCode.J))
+            /*if (Input.GetKeyDown(KeyCode.J))
             {
                 sfxMan.playerAttack.Play();
                 myRigidbody.velocity = Vector2.zero;
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
         if (attackTimeCounter2 <= 0)
         {
             attacking2 = false;
-            anim.SetBool("Attack2", false);
+            anim.SetBool("Attack2", false);*/
         }
 
             anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));

@@ -21,8 +21,12 @@ public class MusicSwitcher : MonoBehaviour
         {
             theMC.SwitchTrack(newTrack);
             gameObject.SetActive(false);
-        }        
-        
+        }
+        else 
+        {
+            theMC.SwitchTrack(newTrack);
+            gameObject.SetActive(true);
+        }
     }
 
     // Update is called once per frame

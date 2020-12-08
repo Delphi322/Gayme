@@ -14,6 +14,7 @@ public class MusicSwitcher : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        switchOnStart = false;
 
         theMC = FindObjectOfType<MusicController>();
 

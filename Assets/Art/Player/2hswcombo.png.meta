@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: 790e014844a36024e8d6d7a42da4a0b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -383650431854241517
+    second: 2hswcombo_0
+  - first:
+      213: 3872859398581338366
+    second: 2hswcombo_1
+  - first:
+      213: 2500204630180914954
+    second: 2hswcombo_2
+  - first:
+      213: 582821965466364863
+    second: 2hswcombo_3
+  - first:
+      213: 3348460429420008038
+    second: 2hswcombo_4
+  - first:
+      213: -3745660598028753436
+    second: 2hswcombo_5
+  - first:
+      213: 3007576098402943520
+    second: 2hswcombo_6
+  - first:
+      213: -1145730808743838398
+    second: 2hswcombo_7
+  - first:
+      213: -1706178338281571890
+    second: 2hswcombo_8
+  - first:
+      213: 5620812136980574997
+    second: 2hswcombo_9
+  - first:
+      213: -7171754314807183258
+    second: 2hswcombo_10
+  - first:
+      213: -4726275986717550433
+    second: 2hswcombo_11
+  - first:
+      213: -7785987878478608058
+    second: 2hswcombo_12
+  - first:
+      213: -2430693014283139861
+    second: 2hswcombo_13
+  - first:
+      213: 4573944724050268650
+    second: 2hswcombo_14
+  - first:
+      213: -3901594224966702779
+    second: 2hswcombo_15
+  - first:
+      213: 1024061975333172771
+    second: 2hswcombo_16
+  - first:
+      213: -5261239195427972195
+    second: 2hswcombo_17
+  - first:
+      213: -3110217635979836154
+    second: 2hswcombo_18
+  - first:
+      213: 4969115422754359201
+    second: 2hswcombo_19
+  - first:
+      213: 6775320658157028358
+    second: 2hswcombo_20
+  - first:
+      213: -3455824095530785981
+    second: 2hswcombo_21
+  - first:
+      213: -659214780631057934
+    second: 2hswcombo_22
+  - first:
+      213: -5600827663076186257
+    second: 2hswcombo_23
+  - first:
+      213: 4303334728392397188
+    second: 2hswcombo_24
+  - first:
+      213: 4339518369514535833
+    second: 2hswcombo_25
+  - first:
+      213: 6442097334478065459
+    second: 2hswcombo_26
+  - first:
+      213: 6611908630462768748
+    second: 2hswcombo_27
+  - first:
+      213: -3532329686491822391
+    second: 2hswcombo_28
+  - first:
+      213: 4767280839186700554
+    second: 2hswcombo_29
+  - first:
+      213: -5913413951354393828
+    second: 2hswcombo_30
+  - first:
+      213: 5613778499451561708
+    second: 2hswcombo_31
+  - first:
+      213: 8916408780220545509
+    second: 2hswcombo_32
+  - first:
+      213: -6405365325712666767
+    second: 2hswcombo_33
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2hswcombo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319176307fffcaaf0800000000000000
+      internalID: -383650431854241517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0497d8a192fb530800000000000000
+      internalID: 3872859398581338366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_2
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0768bf4dd282b220800000000000000
+      internalID: 2500204630180914954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_3
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbeaea5d79961800800000000000000
+      internalID: 582821965466364863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_4
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6621808050f187e20800000000000000
+      internalID: 3348460429420008038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_5
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 2000
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5a15d088db40cc0800000000000000
+      internalID: -3745660598028753436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224344d68e0db920800000000000000
+      internalID: 3007576098402943520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d3a9856eb8910f0800000000000000
+      internalID: -1145730808743838398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_8
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b24f47df6258e0800000000000000
+      internalID: -1706178338281571890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_9
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5137ee5bbd2210e40800000000000000
+      internalID: 5620812136980574997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_10
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668fa81c27fc87c90800000000000000
+      internalID: -7171754314807183258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_11
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1600
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98dd3de705e86eb0800000000000000
+      internalID: -4726275986717550433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64909c5c64d92f390800000000000000
+      internalID: -7785987878478608058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be441a5f491744ed0800000000000000
+      internalID: -2430693014283139861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_14
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1d9432e7ae97f30800000000000000
+      internalID: 4573944724050268650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_15
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549e42359b0cad9c0800000000000000
+      internalID: -3901594224966702779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_16
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326f7bbd0f2363e00800000000000000
+      internalID: 1024061975333172771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_17
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 1200
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b5726b3d25cf6b0800000000000000
+      internalID: -5261239195427972195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6054449e98946d4d0800000000000000
+      internalID: -3110217635979836154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_19
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a740354628d5f440800000000000000
+      internalID: 4969115422754359201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_20
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604c0dccd36c60e50800000000000000
+      internalID: 6775320658157028358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_21
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343e6ab7b427a00d0800000000000000
+      internalID: -3455824095530785981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_22
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f97cc156aff9d6f0800000000000000
+      internalID: -659214780631057934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_23
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 800
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67a9263aecd542b0800000000000000
+      internalID: -5600827663076186257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4815e6ba22488bb30800000000000000
+      internalID: 4303334728392397188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_25
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b323f17f0193c30800000000000000
+      internalID: 4339518369514535833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_26
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f4e0ed46de66950800000000000000
+      internalID: 6442097334478065459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_27
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66a2163ed732cb50800000000000000
+      internalID: 6611908630462768748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_28
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6861f7dd4aafec0800000000000000
+      internalID: -3532329686491822391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_29
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 400
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09df344aa8c82240800000000000000
+      internalID: 4767280839186700554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1baea387555feda0800000000000000
+      internalID: -5913413951354393828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_31
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6298b5dc528ed40800000000000000
+      internalID: 5613778499451561708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_32
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e938316b827dbb70800000000000000
+      internalID: 8916408780220545509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2hswcombo_33
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 0
+        width: 620
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fca406c229b17a0800000000000000
+      internalID: -6405365325712666767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

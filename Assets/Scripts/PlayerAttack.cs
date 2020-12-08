@@ -9,10 +9,12 @@ public class PlayerAttack : MonoBehaviour
     public int noOfJs = 0;
     float lastJTime = 0;
     public float maxComboDelay = 0.9f;
+    private SFXManager sfxMan;
 
     // Start is called before the first frame update
     void Start()
     {
+        sfxMan = FindObjectOfType<SFXManager>();
         anim.gameObject.GetComponent<Animator>();
     }
 
@@ -26,6 +28,7 @@ public class PlayerAttack : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.J))
         {
+            sfxMan.playerAttack.Play();
             lastJTime = Time.time;
             noOfJs++;
             if(noOfJs == 1)

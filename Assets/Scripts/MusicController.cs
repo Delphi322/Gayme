@@ -23,7 +23,7 @@ public class MusicController : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            DontDestroyOnLoad(gameObject);
         }
     }
 

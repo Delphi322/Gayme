@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a8a83d958a851d4a8575cc8dc616f0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: Main
+  levelToLoad: Overworld
   exitPoint: Test House Out
 --- !u!61 &467528448
 BoxCollider2D:

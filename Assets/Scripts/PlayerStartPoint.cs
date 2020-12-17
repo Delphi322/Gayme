@@ -10,6 +10,8 @@ public class PlayerStartPoint : MonoBehaviour
 
     public Vector2 startDirection;
 
+   
+
     public string pointName;
 
     // Start is called before the first frame update
@@ -27,11 +29,12 @@ public class PlayerStartPoint : MonoBehaviour
             theCamera = FindObjectOfType<CameraController>();
             theCamera.transform.position = new Vector3(transform.position.x, transform.position.y, theCamera.transform.position.z);
         }
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 }

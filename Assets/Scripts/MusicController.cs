@@ -16,15 +16,7 @@ public class MusicController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!mcExists)
-        {
-            mcExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-        }
+       
     }
 
     // Update is called once per frame
@@ -41,6 +33,7 @@ public class MusicController : MonoBehaviour
         {
             musicTracks[currentTrack].Stop();
         }
+
     }
     public void SwitchTrack(int newTrack)
     {
